@@ -1,0 +1,31 @@
+COMANDOS E DICAS PARA GIT E GITHUB
+
+SHA1: conjunto de 40 caracteres identificadores do seu código criado (criptografado)
+Blob: objeto que encapsula informação de diretórios para "apontar" para um programa criado
+Tree: objeto de armazenamento/encapsulamento de blobs
+Commit: aponta para uma tree e dá significância para um conjunto de alterações nos arquivos apontados.
+Com o commit dá para ser criado uma linha do tempo de alterações feitas em programas
+Sistema distribuído seguro: uso de blobs, trees e commits para segurança dos programas criados
+SSH: estabelece conexão segura e criptografada
+Markdown: forma de diferenciar títulos como em HTML
+comando: git add -> adiciona um commit
+comando: git status -> retorna o status do arquivo
+
+CRIANDO REPOSITÓRIOS
+
+Uma vez logado na conta do github, ir em:
+Your repositories -> New
+Criar:
+Nome para o repositório
+Uma descrição
+Deixar a opção Public selecionada
+Adicionar um README file
+Clicar em Create repository
+Com o repositório novo criado, ir em:
+Code
+Copiar o link HTTPS
+Ir em uma pasta destinada ao repositório local, e com o lado direito do mouse clicar em "Git bash" here
+Adicionar o comando no git:
+git clone "colar o link copiado no github"
+Clicar em enter
+Repositório clonado :)
